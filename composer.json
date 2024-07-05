@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "kleisli/fusionmailer",
+    "require": {
+        "neos/neos": "*",
+        "neos/fusion": "*",
+        "sitegeist/neos-symfonymailer-factories": "^1.0",
+        "punktde/outofbandrendering": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kleisli\\FusionMailer\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Kleisli.FusionMailer"
+        }
+    }
+}
