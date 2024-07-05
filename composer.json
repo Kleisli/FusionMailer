@@ -3,10 +3,9 @@
     "type": "neos-package",
     "name": "kleisli/fusionmailer",
     "require": {
-        "neos/neos": "*",
+        "neos/flow": "*",
         "neos/fusion": "*",
-        "sitegeist/neos-symfonymailer-factories": "^1.0",
-        "punktde/outofbandrendering": "^2.3"
+        "sitegeist/neos-symfonymailer-factories": "^1.0"
     },
     "autoload": {
         "psr-4": {
